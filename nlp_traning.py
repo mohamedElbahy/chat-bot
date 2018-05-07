@@ -3,8 +3,8 @@ import random
 import spacy
 keys=[]
 trian_dic=dict()
-for files in os.listdir('C:/Users/bahy\Downloads\chatterbot-corpus-master\chatterbot_corpus\data\english'):
-    data = open('C:/Users/bahy\Downloads\chatterbot-corpus-master\chatterbot_corpus\data\english/' + files,'r').readlines()
+for files in os.listdir('C:/Users/bahy\Downloads\english'):
+    data = open('C:/Users/bahy\Downloads\english/' + files,'r').readlines()
     for i in range(0,(len(data)-1)):
         x=data[i]
         if x.startswith("- -"):
